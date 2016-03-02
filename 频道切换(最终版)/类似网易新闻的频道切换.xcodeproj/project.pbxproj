@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C285C881BF2E390005EF44D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C285C871BF2E390005EF44D /* main.m */; };
+		2C285C8B1BF2E390005EF44D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C285C8A1BF2E390005EF44D /* AppDelegate.m */; };
+		2C285C911BF2E390005EF44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C285C8F1BF2E390005EF44D /* Main.storyboard */; };
+		2C285C931BF2E390005EF44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C285C921BF2E390005EF44D /* Assets.xcassets */; };
+		2C285C961BF2E390005EF44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C285C941BF2E390005EF44D /* LaunchScreen.storyboard */; };
+		2C285C9F1BF2E52C005EF44D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C285C9E1BF2E52C005EF44D /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2C285CA21BF2ED41005EF44D /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C285CA11BF2ED41005EF44D /* OneViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2C285CA51BF32B4C005EF44D /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C285CA41BF32B4C005EF44D /* MyLabel.m */; settings = {ASSET_TAGS = (); }; };
+		2CF1CCAA1BF4765E00ADB1F2 /* UIView+ViewExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1CCA91BF4765E00ADB1F2 /* UIView+ViewExtention.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C285C831BF2E390005EF44D /* 类似网易新闻的频道切换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "类似网易新闻的频道切换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C285C871BF2E390005EF44D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C285C891BF2E390005EF44D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C285C8A1BF2E390005EF44D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C285C901BF2E390005EF44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C285C921BF2E390005EF44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C285C951BF2E390005EF44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C285C971BF2E390005EF44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C285C9D1BF2E52C005EF44D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2C285C9E1BF2E52C005EF44D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2C285CA01BF2ED41005EF44D /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		2C285CA11BF2ED41005EF44D /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		2C285CA31BF32B4C005EF44D /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		2C285CA41BF32B4C005EF44D /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		2CF1CCA81BF4765E00ADB1F2 /* UIView+ViewExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewExtention.h"; sourceTree = "<group>"; };
+		2CF1CCA91BF4765E00ADB1F2 /* UIView+ViewExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewExtention.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C285C801BF2E390005EF44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C285C7A1BF2E390005EF44D = {
+			isa = PBXGroup;
+			children = (
+				2C285C851BF2E390005EF44D /* 类似网易新闻的频道切换 */,
+				2C285C841BF2E390005EF44D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C285C841BF2E390005EF44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C285C831BF2E390005EF44D /* 类似网易新闻的频道切换.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C285C851BF2E390005EF44D /* 类似网易新闻的频道切换 */ = {
+			isa = PBXGroup;
+			children = (
+				2C285C891BF2E390005EF44D /* AppDelegate.h */,
+				2C285C8A1BF2E390005EF44D /* AppDelegate.m */,
+				2C285C9D1BF2E52C005EF44D /* HomeViewController.h */,
+				2C285C9E1BF2E52C005EF44D /* HomeViewController.m */,
+				2C285CA31BF32B4C005EF44D /* MyLabel.h */,
+				2C285CA41BF32B4C005EF44D /* MyLabel.m */,
+				2C285CA01BF2ED41005EF44D /* OneViewController.h */,
+				2C285CA11BF2ED41005EF44D /* OneViewController.m */,
+				2CF1CCA81BF4765E00ADB1F2 /* UIView+ViewExtention.h */,
+				2CF1CCA91BF4765E00ADB1F2 /* UIView+ViewExtention.m */,
+				2C285C8F1BF2E390005EF44D /* Main.storyboard */,
+				2C285C921BF2E390005EF44D /* Assets.xcassets */,
+				2C285C941BF2E390005EF44D /* LaunchScreen.storyboard */,
+				2C285C971BF2E390005EF44D /* Info.plist */,
+				2C285C861BF2E390005EF44D /* Supporting Files */,
+			);
+			path = "类似网易新闻的频道切换";
+			sourceTree = "<group>";
+		};
+		2C285C861BF2E390005EF44D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C285C871BF2E390005EF44D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C285C821BF2E390005EF44D /* 类似网易新闻的频道切换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C285C9A1BF2E390005EF44D /* Build configuration list for PBXNativeTarget "类似网易新闻的频道切换" */;
+			buildPhases = (
+				2C285C7F1BF2E390005EF44D /* Sources */,
+				2C285C801BF2E390005EF44D /* Frameworks */,
+				2C285C811BF2E390005EF44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类似网易新闻的频道切换";
+			productName = "类似网易新闻的频道切换";
+			productReference = 2C285C831BF2E390005EF44D /* 类似网易新闻的频道切换.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C285C7B1BF2E390005EF44D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jjl;
+				TargetAttributes = {
+					2C285C821BF2E390005EF44D = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AJJJS3QK49;
+					};
+				};
+			};
+			buildConfigurationList = 2C285C7E1BF2E390005EF44D /* Build configuration list for PBXProject "类似网易新闻的频道切换" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C285C7A1BF2E390005EF44D;
+			productRefGroup = 2C285C841BF2E390005EF44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C285C821BF2E390005EF44D /* 类似网易新闻的频道切换 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C285C811BF2E390005EF44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C285C961BF2E390005EF44D /* LaunchScreen.storyboard in Resources */,
+				2C285C931BF2E390005EF44D /* Assets.xcassets in Resources */,
+				2C285C911BF2E390005EF44D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C285C7F1BF2E390005EF44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF1CCAA1BF4765E00ADB1F2 /* UIView+ViewExtention.m in Sources */,
+				2C285CA51BF32B4C005EF44D /* MyLabel.m in Sources */,
+				2C285C8B1BF2E390005EF44D /* AppDelegate.m in Sources */,
+				2C285C881BF2E390005EF44D /* main.m in Sources */,
+				2C285C9F1BF2E52C005EF44D /* HomeViewController.m in Sources */,
+				2C285CA21BF2ED41005EF44D /* OneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C285C8F1BF2E390005EF44D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C285C901BF2E390005EF44D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C285C941BF2E390005EF44D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C285C951BF2E390005EF44D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C285C981BF2E390005EF44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C285C991BF2E390005EF44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C285C9B1BF2E390005EF44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "类似网易新闻的频道切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jjl.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C285C9C1BF2E390005EF44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "类似网易新闻的频道切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jjl.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C285C7E1BF2E390005EF44D /* Build configuration list for PBXProject "类似网易新闻的频道切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C285C981BF2E390005EF44D /* Debug */,
+				2C285C991BF2E390005EF44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C285C9A1BF2E390005EF44D /* Build configuration list for PBXNativeTarget "类似网易新闻的频道切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C285C9B1BF2E390005EF44D /* Debug */,
+				2C285C9C1BF2E390005EF44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C285C7B1BF2E390005EF44D /* Project object */;
+}
